@@ -1,0 +1,4 @@
+title = "Story"
+content = "Fast forward to the year 1992, Ann remains unable to accept the official narrative surrounding her father's demise. Despite the police having closed the case, attributing it to suicide, Ann is convinced that her father, Giovanni Turing, didn’t have any reasons to have done that to himself. "
+type = "skip"
+page = "5"

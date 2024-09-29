@@ -1,0 +1,4 @@
+title = "Rock's Hypothesis"
+content = "f) It was raining on the day of his death."
+type = "skip"
+page = "9"

@@ -1,0 +1,3 @@
+title = "Story"
+content = "William Rock, a luminary in the world of investigative brilliance, stands as a paragon of deductive prowess and unwavering determination. His reputation precedes him, adorned with tales of unraveling the most enigmatic mysteries that stymied conventional minds."
+type = "skip"

@@ -1,0 +1,4 @@
+title = "Story"
+content = "In the tranquil suburbs of 1970's Chicago, the Turings embodied a tight-knit unit. Ann, their vibrant 13-year-old, brought boundless energy and laughter to their home. Caroline, a 43-year-old lawyer, exuded nurturing warmth, crafting a haven of care and comfort."
+type = "skip"
+page = "1"

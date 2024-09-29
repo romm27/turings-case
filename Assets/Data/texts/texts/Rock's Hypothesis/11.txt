@@ -1,0 +1,4 @@
+title = "Rock's Hypothesis"
+content = "h) Either the daughter of the police officer is not a programmer or the theory of the police officer's daughter is correct."
+type = "skip"
+page = "11"

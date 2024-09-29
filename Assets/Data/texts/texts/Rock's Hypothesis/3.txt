@@ -1,0 +1,4 @@
+title = "Rock's Hypothesis"
+content = "That fateful night was indeed marked by rainfall, validating the family's recollection of the weather on the day of Giovanni's demise."
+type = "skip"
+page = "3"

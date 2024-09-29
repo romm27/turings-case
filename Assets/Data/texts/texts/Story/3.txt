@@ -1,0 +1,4 @@
+title = "Story"
+content = "In the year 1977, on a rainy night, a telephone call resonated within the residence of the Turing family. The caller identifies as law enforcement, conveying the distressing information that Giovanni Turing, has been discovered deceased."
+type = "skip"
+page = "3"

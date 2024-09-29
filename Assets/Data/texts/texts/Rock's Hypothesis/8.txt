@@ -1,0 +1,4 @@
+title = "Rock's Hypothesis"
+content = "e) Either the theory of the police officer's daughter is correct, or it was raining on the day of his death."
+type = "skip"
+page = "8"

@@ -1,0 +1,4 @@
+title = "Story"
+content = "Giovanni, 46, a steadfast police officer, safeguarded the city and returned home to weave tales that illuminated their evenings. They were a classic happy family. However, everything was about to change."
+type = "skip"
+page = "2"
