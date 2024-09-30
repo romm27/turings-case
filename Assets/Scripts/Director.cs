@@ -51,10 +51,6 @@ public class Director : MonoBehaviour
         else {
             fading = false;
         }
-
-        if (Input.GetKeyDown(KeyCode.Escape)) {
-            Application.Quit();
-        }
     }
 
     public void SetBookFade(bool _b) {
