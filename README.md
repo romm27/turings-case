@@ -1,16 +1,13 @@
 **Game developed for the Computer Science Course at PUC-PR.**
 
 # Turing's Case
-
+## Project Introduction(Portuguese): https://www.youtube.com/watch?v=VmZKDKjc4X0
 ## The Project  
 Our assignment was to build a simple terminal game where players would use induction and boolean logic to solve a case. However, I decided to create something fancier. I hope you enjoy it!
 
 ## "Unorthodox Code" comment
 This project was developed in a single crunch session; I had about a day and a half to complete both the graphics and the code, that is essentially what it is saying.
 
-
-
-Project Introduction(Portuguese): https://www.youtube.com/watch?v=VmZKDKjc4X0
 
 # Project Setup Instructions
 
