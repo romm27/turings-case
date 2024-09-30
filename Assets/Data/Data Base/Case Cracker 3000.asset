@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acccd5ede65d76944b4f3cea61678c76, type: 3}
+  m_Name: Case Cracker 3000
+  m_EditorClassIdentifier: 
+  fileTitle: Case Cracker
+  fileIdentifier: case_cracker_3000
+  content:
+  - "Introducing Case Cracker 3000 \u2013 Your Ultimate Detective Companion\r\n\r\nUnleash
+    the power of precision investigation with Case Cracker 3000, the cutting-edge
+    program meticulously engineered to elevate detective reasoning to unprecedented
+    heights. Developed by a team of elite software architects in collaboration with
+    seasoned detectives, this corporate marvel is designed to refine and validate
+    investigative hypotheses with unmatched sophistication."
+  - 'Liability Notice:
+
+    While Case Cracker 3000 is a cutting-edge tool designed
+    to enhance investigative processes, it is essential to acknowledge that no software
+    can replace the discernment and expertise of a human detective. Users are urged
+    to exercise caution and critical thinking when interpreting the results provided
+    by Case Cracker 3000. The program is a tool meant to assist in the investigative
+    process and should not be considered infallible.'
+  - 'Liability Notice:
+
+    The creators of Case Cracker 3000 assume no responsibility
+    for the consequences arising from the misuse or misinterpretation of the program''s
+    results. Detectives and law enforcement personnel are encouraged to corroborate
+    the findings of Case Cracker 3000 with traditional investigative methods and
+    consult with their peers and legal experts when making significant decisions
+    based on the program''s output.'
+  - 'Liability Notice:
+
+    Furthermore, any reliance on Case Cracker 3000 does not
+    absolve users from adhering to established ethical and legal standards in the
+    conduct of their investigations. The program is a supplement to, not a replacement
+    for, the inherent judgment and ethical responsibility of the user.'
+  - 'Liability Notice:
+
+    By using Case Cracker 3000, users acknowledge and accept
+    these terms and recognize that the program is a tool designed to aid, not replace,
+    the skills and judgment of professional investigators.'

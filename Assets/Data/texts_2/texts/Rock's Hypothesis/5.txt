@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "a) Either the government murdered the police officer or the police officer committed suicide."
+type = "skip"

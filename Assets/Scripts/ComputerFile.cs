@@ -6,6 +6,7 @@ using UnityEngine;
 public class ComputerFile : ScriptableObject
 {
     [Header("Data")]
-    public string fileName;
+    public string fileTitle;
+    public string fileIdentifier;
     [TextArea(10, 10)]public string[] content;
 }

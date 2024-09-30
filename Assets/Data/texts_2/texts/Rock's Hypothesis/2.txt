@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "Rock's investigation led him through a maze of sealed documents and classified information, piecing together fragments of Giovanni's career, connections, and the obscured pathways that often remained veiled from public view."
+type = "skip"

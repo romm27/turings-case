@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "In his pursuit of understanding Giovanni's life, William Rock meticulously combed through the precinct's confidential records, delving into archives hidden within the inner sanctum of Chicago's police department."
+type = "skip"

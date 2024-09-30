@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "c) If the theory of the police officer's daughter is correct, then the government murdered the police officer."
+type = "skip"

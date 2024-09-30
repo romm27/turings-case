@@ -10,19 +10,24 @@ public class TextBoxManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI titleText;
     [SerializeField] TextMeshProUGUI mainText;
     [SerializeField] TextMeshProUGUI inputText;
-    [SerializeField] TextMeshProUGUI dataText;
+    [SerializeField] TextMeshProUGUI statsText;
     [SerializeField] ComputerCPU cpu;
     [SerializeField] TMP_InputField inputField;
+    [SerializeField] Director director;
 
     [Header("Audio References")]
-    [SerializeField] AudioSource keyTyped;
+    [SerializeField] SoundManager soundManager;
 
     [Header("Settings")]
     public float charDelay = 0.05f;
     public float inputTextBlinkInterval = 0.1f;
+    public float inputInterval = 0.1f;
 
     private bool blinkingInput = false;
     private bool writingToScreen = false;
+    private bool underscoreBlink = false;
+    [HideInInspector]public bool blockInput = false;
+    private bool alternativeInputPrompt = false;
 
     public string CurrentInput {
         get {
@@ -33,18 +38,56 @@ public class TextBoxManager : MonoBehaviour
         }
     }
 
+    public void Start() {
+        StartCoroutine(ManageunderscoreBlink());
+    }
+
     public void Update() {
+        statsText.gameObject.SetActive(cpu.inReadMode && !cpu.inCaseCracker);
+        CheckForForwardText();
+        if (!director.inBookMode) {
+            if (cpu.inReadMode && !cpu.inCaseCracker) {
+                //Input
+                if (cpu.CurrentPage > 0) {
+                    if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)) {
+                        cpu.CurrentPage--;
+                        cpu.UpdateReadModeText();
+                        OnKeyTyped();
+                    }
+                }
+                if (cpu.CurrentPage < cpu.CurrentFileSize - 1) {
+                    if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) {
+                        cpu.CurrentPage++;
+                        cpu.UpdateReadModeText();
+                        OnKeyTyped();
+                    }
+                }
+
+                statsText.text = "p:" + (cpu.CurrentPage + 1).ToString() + "/" + cpu.CurrentFileSize;
+            }
+            else {
+                if (true) {
+                    inputText.alignment = TextAlignmentOptions.Left;
+                    ReadToInput();
+                }
+            }
+        }
+
         if (cpu.inReadMode) {
             if (mainText.text.Length == mainText.maxVisibleCharacters) {
                 writingToScreen = false;
+                inputText.alignment = TextAlignmentOptions.Center;
+                alternativeInputPrompt = cpu.inCaseCracker;
+                string alt = alternativeInputPrompt ? ">Press Enter To Continue<" : "use < > to move or Esc to Leave.";
+                inputText.text = blockInput? "Wait" : alt;
                 if (!blinkingInput) {
                     StartCoroutine(BlinkInput());
                     blinkingInput = true;
                 }
             }
-        }
-        else {
-            ReadToInput();
+            if (!blockInput) {
+                
+            }
         }
     }
 
@@ -59,31 +102,66 @@ public class TextBoxManager : MonoBehaviour
     }
 
     public void ReadToInput() {
-        inputText.gameObject.SetActive(true);
+        if (cpu.inputEnabled) {
+            inputText.gameObject.SetActive(true);
+        }
         EventSystem.current.SetSelectedGameObject(inputField.gameObject, null);
         inputField.OnPointerClick(new PointerEventData(EventSystem.current));
 
         if(Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return)) {
             OnKeyTyped();
             if (CurrentInput != "") {
-                cpu.RunCommand(CurrentInput);
+                if (cpu.inCaseCracker) {
+                    cpu.OnCaseCrackerStep(CurrentInput);
+                }
+                else {
+                    cpu.RunCommand(CurrentInput);
+                }
                 CurrentInput = "";
             }
-            else {
-                cpu.EnterInputMode();
+            else{
+                if (cpu.inCaseCracker) {
+                    cpu.OnCaseCrackerStep("");
+                }
+                else {
+                    cpu.EnterInputMode();
+                }
             }
         }
 
-        if(inputField.text.Length > 24) {
-            inputField.text = inputField.text.Substring(0, 24);
+        int max = 38;
+        if(inputField.text.Length > max) {
+            inputField.text = inputField.text.Substring(0, max);
         }
 
-        
-        inputText.text = '>' + CurrentInput;
+        string final = underscoreBlink ? "_" : "";
+        inputText.text = '>' + CurrentInput + final;
+    }
+
+    private void CheckForForwardText() {
+        if (!cpu.inCaseCracker) {
+            if (cpu.inReadMode) {
+                if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Return)) {
+                    OnKeyTyped();
+                    cpu.EnterInputMode();
+                    cpu.CloseCaseCracker();
+
+                }
+                if (cpu.IsLastPage) {
+                    if (Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return)) {
+                        OnKeyTyped();
+                        cpu.EnterInputMode();
+                    }
+                }
+            }
+        }
+        else {
+            
+        }
     }
 
     public void OnKeyTyped() {
-        keyTyped.PlayOneShot(keyTyped.clip);
+        soundManager.PlayClickSound();
     }
 
     public IEnumerator BlinkInput() {
@@ -108,5 +186,11 @@ public class TextBoxManager : MonoBehaviour
             yield return new WaitForSeconds(charDelay);
             StartCoroutine(TextLoop());
         }
+    }
+
+    public IEnumerator ManageunderscoreBlink() {
+        underscoreBlink = !underscoreBlink;
+        yield return new WaitForSeconds(inputTextBlinkInterval);
+        StartCoroutine(ManageunderscoreBlink());
     }
 }

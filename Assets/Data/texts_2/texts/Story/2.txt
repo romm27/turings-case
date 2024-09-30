@@ -1,0 +1,3 @@
+title = "Story"
+content = "Giovanni, 46, a steadfast police officer, safeguarded the city. They were a classic happy family. However, everything was about to change."
+type = "skip"

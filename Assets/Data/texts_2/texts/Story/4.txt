@@ -1,0 +1,3 @@
+title = "Story"
+content = "The weight of despair settled as the authorities, after a brief inquiry, attributed his passing to suicide. The family, engulfed in devastation, found themselves unable to reconcile with this harrowing loss, forever burdened by the incomprehensible tragedy."
+type = "skip"

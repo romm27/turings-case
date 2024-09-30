@@ -1,4 +1,0 @@
-title = "Rock's Hypothesis"
-content = "William Rock delved into the depths of Giovanni's life, meticulously scouring through the precinct's confidential records and unearthed archives from the heart of Chicago's police department."
-type = "skip"
-page = "1"

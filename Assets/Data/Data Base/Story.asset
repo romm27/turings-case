@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acccd5ede65d76944b4f3cea61678c76, type: 3}
+  m_Name: Story
+  m_EditorClassIdentifier: 
+  fileTitle: Story
+  fileIdentifier: story
+  content:
+  - 'In the tranquil suburbs of 1970''s Chicago, the Turings embodied a tight-knit
+    unit. Ann, their vibrant 13-year-old, brought boundless energy and laughter to
+    their home. Caroline, a 43-year-old lawyer, exuded nurturing warmth.
+
+    Giovanni,
+    46, a steadfast police officer, safeguarded the city. They were a classic happy
+    family. However, everything was about to change.
+
+    On March 6th, 1977, a telephone
+    call resonated within the residence of the Turing family. The caller identifies
+    as law enforcement, conveying the distressing information that Giovanni Turing
+    has been discovered deceased.'
+  - 'The weight of despair settled as the authorities, after a brief inquiry, attributed
+    his passing to suicide. The family, engulfed in devastation, found themselves
+    unable to reconcile with this harrowing loss, forever burdened by the incomprehensible
+    tragedy.
+
+    Fast forward to the year 1992. Ann remains unable to accept the
+    official narrative surrounding her father''s demise.'
+  - "Despite the police having closed the case, attributing it to suicide, Ann is
+    convinced that her father, Giovanni Turing, didn\u2019t have any reasons to have
+    done that to himself.\r\nThe family firmly believed that the government was responsible
+    for Giovanni's demise.\r\nMotivated by this persistent doubt, Ann managed to
+    save enough money to hire the famous detective William Rock. Her sole aim: to
+    conclusively dissolve the perpetual agony haunting her family, once and for all."
+  - 'William Rock, a prominent in the world of investigative brilliance, stands as
+    an exemplar of deductive proficiency and unwavering determination. His reputation
+    precedes him, adorned with tales of unraveling the most enigmatic mysteries that
+    stymied conventional minds.
+
+    With a keen eye for detail and a relentless
+    pursuit of truth, Rock embodies the essence of a seasoned detective, his sharp
+    intellect matched only by his tenacity to unearth the hidden threads that bind
+    the most perplexing cases.'

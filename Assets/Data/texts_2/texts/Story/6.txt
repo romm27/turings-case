@@ -1,0 +1,4 @@
+title = "Story"
+content = "The family firmly believed that the government was responsible for Giovanni's demise.
+Motivated by this persistent doubt, Ann managed to save enough money to hire the famous detective William Rock. Her sole aim: to conclusively dissolve the perpetual agony haunting her family, once and for all."
+type = "skip"

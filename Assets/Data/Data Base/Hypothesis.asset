@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acccd5ede65d76944b4f3cea61678c76, type: 3}
+  m_Name: Hypothesis
+  m_EditorClassIdentifier: 
+  fileTitle: Hypothesis
+  fileIdentifier: hypothesis
+  content:
+  - 'In his pursuit of understanding Giovanni''s life, William Rock meticulously
+    combed through the precinct''s confidential records, delving into archives hidden
+    within the inner sanctum of Chicago''s police department. Rock''s investigation
+    led him through a maze of sealed documents and classified information, piecing
+    together fragments of Giovanni''s career, connections, and the obscured pathways
+    that often remained veiled from public view. With each carefully scrutinized
+    file and meticulously unearthed record, Rock uncovered a tapestry of Giovanni''s
+    professional endeavors, shedding light on the shadows that concealed crucial
+    aspects of the dedicated officer''s life.
+
+'
+  - '
+
+    a) Either the government murdered the police officer or the police officer
+    committed suicide.
+
+
+    b) The police officer didn''t have coffee at the bakery
+    on the day he died, or there was a parade at the police officer''s daughter''s
+    school.
+
+'
+  - '
+
+    c) If the theory of the police officer''s daughter is correct, then the
+    government murdered the police officer.
+
+
+    d) It wasn''t Chicago''s anniversary.
+
+'
+  - "\ne) If the government murdered the police officer, then it was the anniversary
+    of the city of Chicago on the day of his death.\r\n\nf) The theory of the police
+    officer's daughter is not correct, and the police officer had coffee at the bakery
+    on the day he died. \r\n"
+  - '
+
+    g) If the police officer committed suicide, then it was raining on the
+    day of his death.
+
+
+    h) It was the anniversary of the city of Chicago on the
+    day the police officer died, or the police officer''s daughter is a programmer.
+
+'

@@ -1,4 +1,0 @@
-title = "Story"
-content = "With a keen eye for detail and a relentless pursuit of truth, Rock embodies the essence of a seasoned detective, his sharp intellect matched only by his tenacity to unearth the hidden threads that bind the most perplexing cases."
-type = "skip"
-page = "8"

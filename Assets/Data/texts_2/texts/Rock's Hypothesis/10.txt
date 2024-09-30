@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "f) The theory of the police officer's daughter is not correct, and the police officer had coffee at the bakery on the day he died."
+type = "skip"

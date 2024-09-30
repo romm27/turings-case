@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "g) If the police officer committed suicide, then it was raining on the day of his death."
+type = "skip"

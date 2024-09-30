@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: eeb7026cd4e90a94fb4d8dcde3aa4e11
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - SV Basic Manual
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 15281e0c129c7864fb31305b2d6f2217, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

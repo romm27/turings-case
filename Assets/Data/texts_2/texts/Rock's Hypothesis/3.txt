@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "With each carefully scrutinized file and meticulously unearthed record, Rock uncovered a tapestry of Giovanni's professional endeavors, shedding light on the shadows that concealed crucial aspects of the dedicated officer's life."
+type = "skip"

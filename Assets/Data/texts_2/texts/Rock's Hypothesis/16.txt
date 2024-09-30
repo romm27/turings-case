@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "The government murdered the police officer"
+type = "skip"

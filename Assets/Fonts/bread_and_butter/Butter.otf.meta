@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9ebe04bf0c18acf4aa6cb473be4d6164
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Butter
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b8bdee7bd2458294689c219f1b31765d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

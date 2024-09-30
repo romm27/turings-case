@@ -1,26 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Director : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] ComputerCPU computer;
+    [SerializeField] Image fadeIn;
+    [SerializeField] GameObject bookObject;
 
     [Header("Settings")]
+    public float bookAlpha = 0.7f;
+    public float fadeInTime = 1f;
     public bool inBookMode = false;
+    public bool fading = true;
+
+
+    float fadeInRate = 0;
 
     public void Start() {
         computer.EnterInputMode();
+        fadeIn.gameObject.SetActive(true);
+        fadeInRate = 1f/fadeInTime;
     }
 
-    //Professor! eu não me orgulho muito desse código
+    //Professor! eu nï¿½o me orgulho muito desse cï¿½digo
     //Eu tive 1 dia para fazer tudo do zero na Unity!
-    //Por isso tem umas coisas muito 'não ortodoxas' espalhadas por ai...
+    //Por isso tem umas coisas muito 'nï¿½o ortodoxas' espalhadas por ai...
+    //Se eu tivesse mais tempo eu teria feito tudo muito diferente e escalavel.
     // - Giovanni
     public void Update() {
-        if (Input.GetKeyDown(KeyCode.Tab)) {
+        if (Input.GetKeyDown(KeyCode.Tab) && !fading) {
             inBookMode = !inBookMode;
+
+            bookObject.SetActive(inBookMode);
+            SetBookFade(inBookMode);
         }
 
         //Set Input
@@ -29,5 +44,30 @@ public class Director : MonoBehaviour
         if(inBookMode) {
 
         }
+
+        if(fading && fadeIn.color.a > 0f) {
+            ManageBlackFadeIn();
+        }
+        else {
+            fading = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
+    }
+
+    public void SetBookFade(bool _b) {
+        Color temp = fadeIn.color;
+        temp.a = _b ? bookAlpha : 0f;
+        fadeIn.color = temp;
+        fading = false;
+    }
+
+    //Methods
+    private void ManageBlackFadeIn() {
+        Color temp = fadeIn.color;
+        temp.a -= fadeInRate * Time.deltaTime;
+        fadeIn.color = temp;
     }
 }

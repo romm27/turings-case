@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acccd5ede65d76944b4f3cea61678c76, type: 3}
   m_Name: Rules
   m_EditorClassIdentifier: 
-  fileName: Rules
+  fileTitle: Rules
+  fileIdentifier: rules
   content:
   - "Welcome to the Turing\u2019s Case game! This is a detective kind of game, and
     you will be invited to solve the mystery surrounding Giovanni\u2019s death. \r\nFirst

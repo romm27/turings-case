@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acccd5ede65d76944b4f3cea61678c76, type: 3}
+  m_Name: Ann
+  m_EditorClassIdentifier: 
+  fileTitle: Ann
+  fileIdentifier: ann
+  content:
+  - At 13, when her father, Giovanni, passed away, she bravely weathered the storm
+    of grief, clinging to cherished memories of his warmth and guidance. Now, at
+    22, she embodies a quiet strength, shaped by the love and values Giovanni instilled
+    in her. His absence left a void, prompting her to harbor a profound curiosity
+    about his life and the mysterious circumstances surrounding his death.
+  - She's a compassionate soul, often extending a comforting hand to those in need,
+    drawing from the well of empathy she inherited from Giovanni. Her days are a
+    juxtaposition of determination and reflection. In her pursuit of answers, she
+    navigates the maze of her father's past, poring over old photographs and handwritten
+    notes, searching for the elusive pieces that could unlock the truth.

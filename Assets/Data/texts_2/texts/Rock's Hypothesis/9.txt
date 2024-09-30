@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "e) If the government murdered the police officer, then it was the anniversary of the city of Chicago on the day of his death."
+type = "skip"

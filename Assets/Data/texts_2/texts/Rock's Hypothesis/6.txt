@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "b) The police officer didn't have coffee at the bakery on the day he died, or there was a parade at the police officer's daughter's school."
+type = "skip"

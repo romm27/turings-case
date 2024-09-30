@@ -1,0 +1,3 @@
+title = "Story"
+content = "On March 6th, 1977, a telephone call resonated within the residence of the Turing family. The caller identifies as law enforcement, conveying the distressing information that Giovanni Turing has been discovered deceased."
+type = "skip"

@@ -1,0 +1,3 @@
+title = "Rock's Hypothesis"
+content = "The daughter of the police officer is a programmer"
+type = "skip"

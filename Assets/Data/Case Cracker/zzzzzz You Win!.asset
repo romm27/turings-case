@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acccd5ede65d76944b4f3cea61678c76, type: 3}
+  m_Name: zzzzzz You Win!
+  m_EditorClassIdentifier: 
+  fileTitle: Case Cracker 3k
+  fileIdentifier: 
+  content:
+  - 'Congratulations! you have a 99.98% chance of having solved this case!
+
+
+    (please
+    look into our user policy for more information
+
+
+
+    You won!'
+  - 'First, we have to write the statements:
+
+    p = the government murdered the
+    police officer
+
+    q = the police officer committed suicide
+
+    r = it was
+    raining on the day the police officer died
+
+    s = it was the anniversary of
+    the city of Chicago on the day the police officer died
+
+    t = the daughter
+    of the police officer is a programmer'
+  - 'First, we have to write the statements:
+
+    u = the theory of the police officer''s
+    daughter is correct
+
+    v = the police officer had coffee at the bakery on
+    the day he died
+
+    w = there was a parade at the police officer''s daughter''s
+    school on the day the police officer died officer died'
+  - 'It wasn''t the city''s anniversary.
+
+    The player is expected to research
+    Chicago''s anniversary date online. By comparing this date with the day of Giovanni''s
+    death, we may draw the conclusion: s = F
+
+    It was the anniversary of the
+    city of Chicago on the day the police officer died, or the police officer''s
+    daughter is a programmer.'
+  - 's V t -  using disjunctive syllogism, we can conclude that t = T
+
+    If the
+    government murdered the police officer, then it was the anniversary of the city
+    of Chicago on the day the police officer died.'
+  - "p -> s - using modus Tollens, we can conclude that p = F\r\nEither the government
+    murdered the police officer or the police officer committed suicide. \r\np V
+    q - using disjunctive syllogism, we can conclude that q = T"
+  - 'If the police officer committed suicide, then it was raining on the day of his
+    death.
+
+    q -> r - using Modus Ponens, we can conclude that r = T
+
+    If
+    the theory of the police officer''s daughter is correct, then the government
+    murdered the police officer.'
+  - 'u -> p - using Modus Tollens, we can conclude that u = F
+
+    The theory of
+    the police officer''s daughter is not correct, and the police officer had coffee
+    at the bakery on the day he died
+
+    ~u ^ v - using conjunction, we can conclude
+    that v = T'
+  - 'The police officer didn''t have coffee at the bakery on the day he died or there
+    was a parade at the police officer''s daughter''s school on the day he died.
+
+    ~v
+    V w - using disjunctive syllogism, we can conclude that  w = T'
+  - 'Conclusion:
+
+    p = the government murdered the police officer; F
+
+    q
+    = the police officer committed suicide; T
+
+    r = it was raining on the day
+    the police officer died; T
+
+    s = it was the anniversary of the city of Chicago
+    on the day the police officer died; F
+
+    t = the daughter of the police officer
+    is a programmer; T'
+  - 'Conclusion:
+
+    u = the theory of the police officer''s daughter is correct;
+    F
+
+    v = the police officer had coffee at the bakery on the day he died; T
+
+    w
+    = there was a parade at the police officer''s daughter''s school on the day the
+    police officer died; T the police officer is a programmer; T'
+  - 'Thanks for playing our game!
+
+
+    We hope you had as much fun playing it and
+    we did making it.'

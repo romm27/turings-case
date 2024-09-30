@@ -1,4 +1,0 @@
-title = "Rock's Hypothesis"
-content = "The following hypothesis were found by the detective Willian Rock:"
-type = "skip"
-page = "4"

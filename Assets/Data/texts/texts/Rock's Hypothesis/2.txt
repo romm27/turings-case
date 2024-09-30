@@ -1,4 +1,0 @@
-title = "Rock's Hypothesis"
-content = "William Rock also meticulously cross-referenced police reports, official records, and eyewitness accounts. His thorough examination of meteorological archives and interviews with locals confirmed a crucial detail."
-type = "skip"
-page = "2"
