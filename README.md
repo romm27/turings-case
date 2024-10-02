@@ -6,9 +6,15 @@
 ## The Project  
 Our assignment was to build a simple terminal game where players would use induction and boolean logic to solve a case. However, I decided to create something fancier. I hope you enjoy it!
 
+<p align="center">
+<img width="600" src="src/assets/to_readme/demo.gif">
+<img width="600" src="src/assets/to_readme/1.png">
+<img width="600" src="src/assets/to_readme/2.png">
+<img width="600" src="src/assets/to_readme/3.png">
+</p>
+
 ## "Unorthodox Code" comment
 This project was developed in a single crunch session; I had about a day and a half to complete both the graphics and the code, that is essentially what it is saying.
-
 
 # Project Setup Instructions
 
