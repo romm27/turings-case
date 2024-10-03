@@ -46,7 +46,7 @@ To run this project, you will need to install **Unity 2022.3.5f1**. Follow the s
 ### 4. Open the Project
 
 1. Select the project in Unity Hub.
-2. Ensure **Unity 2021.3.39f** is selected as the version.
+2. Ensure **2022.3.5f1** is selected as the version.
 3. Click **Open** to launch the project in Unity.
 
 ---
