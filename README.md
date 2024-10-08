@@ -22,20 +22,20 @@ This project was developed in a single crunch session; I had about a day and a h
 
 ## Prerequisites
 
-To run this project, you will need to install **Unity 2022.3.5f1**. Follow the steps below to install the correct version and set up the project:
+To run this project, you will need to install **Unity 2022.3.49f1**. Follow the steps below to install the correct version and set up the project:
 
 ### 1. Install Unity Hub
 
 1. Download and install **Unity Hub** from [here](https://unity.com/download).
 2. Open Unity Hub after installation.
 
-### 2. Install Unity 2022.3.5f1
+### 2. Install Unity 2022.3.49f1
 
 1. In Unity Hub, go to the **Installs** tab.
 2. Click on the **Install Editor** button.
 3. Select **2021.3.39f** from the list of available versions. If it’s not listed:
    - Click **Archive**, which will redirect you to the Unity download archive.
-   - Scroll down and find **2022.3.5f1**.
+   - Scroll down and find **2022.3.49f1**.
    - Click **Download Archive**, and use Unity Hub to install it.
 
 ### 3. Clone the Repository
@@ -48,7 +48,7 @@ To run this project, you will need to install **Unity 2022.3.5f1**. Follow the s
 ### 4. Open the Project
 
 1. Select the project in Unity Hub.
-2. Ensure **2022.3.5f1** is selected as the version.
+2. Ensure **2022.3.49f1** is selected as the version.
 3. Click **Open** to launch the project in Unity.
 
 ---
