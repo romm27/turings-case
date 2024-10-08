@@ -2,6 +2,8 @@
 # Turing's Case
 **Game developed for the Computer Science Course at PUC-PR.**
 
+>Notice: You can find a compiled version for windows under releases.
+
 ## Project Introduction(Portuguese): https://www.youtube.com/watch?v=VmZKDKjc4X0
 ## The Project  
 Our assignment was to build a simple terminal game where players would use induction and boolean logic to solve a case. However, I decided to create something fancier. I hope you enjoy it!
