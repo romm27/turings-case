@@ -18,6 +18,9 @@ Our assignment was to build a <a href="https://github.com/romm27/detetive">simpl
 ## "Unorthodox Code" comment
 This project was developed in a single crunch session; I had about a day and a half to complete both the graphics and the code, that is essentially what it is saying.
 
+## Graphics
+The game was developed inside the Unity Engine which is 3D capable, however, it is technically a 2D game made using images rendered in <a href = "https://store.steampowered.com/app/1840/Source_Filmmaker/">Source Film Maker</a>.
+
 # Project Setup Instructions
 
 ## Prerequisites
